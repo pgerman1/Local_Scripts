@@ -1,0 +1,7 @@
+#!/bin/bash
+#---------------------------
+#Simple CPU Monitor Script
+#P. Germano 8/10/18
+#--------------------------
+
+xterm -bg black -fg green -e watch -d -n0.5 sensors
